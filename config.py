@@ -17,7 +17,7 @@ BOT_TOKEN = getenv("BOT_TOKEN", "7440055743:AAF4y99E7V9BRpslyqTYvshF35GK1zOn0NM"
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://agautevdragitevsvh:pJSptT6jE0pcw9a4@cluster0.de4uc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 60))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", "60"))
 
 # Chat id of a group for logging bot's activities
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001843177459"))
@@ -30,7 +30,7 @@ QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", "10"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "zynbmurr")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "zynbmusr")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-9f135b26-5fa2-443d-aa24-3563d5e6c00a")
 
@@ -61,7 +61,7 @@ SPOTIFY_CLIENT_SECRET = getenv("SPOTIFY_CLIENT_SECRET", None)
 
 
 # Maximum limit for fetching playlist's track from youtube, spotify, apple links.
-PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", 25))
+PLAYLIST_FETCH_LIMIT = int(getenv("PLAYLIST_FETCH_LIMIT", "25"))
 
 
 # Telegram audio and video file size limit (in bytes)
