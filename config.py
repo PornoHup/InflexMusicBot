@@ -8,11 +8,11 @@ from pyrogram import filters
 load_dotenv()
 
 # Get this value from my.telegram.org/apps
-API_ID = int(getenv("API_ID", "28768514"))
-API_HASH = getenv("API_HASH", "40761fd256d71926ac455e55fcb71ae1")
+API_ID = int(getenv("API_ID", "12349641"))
+API_HASH = getenv("API_HASH", "0f9159afc920f9c592df555e4b1cb73b")
 
 # Get your token from @BotFather on Telegram.
-BOT_TOKEN = getenv("BOT_TOKEN", "7237448561:AAG0upxhbub0Rfqrpx6gDfEOc9zU-tpUknQ")
+BOT_TOKEN = getenv("BOT_TOKEN", "6731848752:AAGl_-vzX9w7BYgVTk1dh9yJwF47NEvFqw4")
 
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://agautevdragitevsvh:pJSptT6jE0pcw9a4@cluster0.de4uc.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
@@ -30,7 +30,7 @@ QUEUE_LIMIT = int(getenv("QUEUE_LIMIT", "10"))
 
 ## Fill these variables if you're deploying on heroku.
 # Your heroku app name
-HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "zynbmusrr")
+HEROKU_APP_NAME = getenv("HEROKU_APP_NAME", "zynbmurr")
 # Get it from http://dashboard.heroku.com/account
 HEROKU_API_KEY = getenv("HEROKU_API_KEY", "HRKU-9f135b26-5fa2-443d-aa24-3563d5e6c00a")
 
